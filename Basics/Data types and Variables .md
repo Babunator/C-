@@ -39,3 +39,27 @@ cout << c;
 return0;
 }
 ```
+## Global Variables 
+- Global variables are accessible to any function, method, or block of the program. Usually, it is defined outside all the functions. The value of the global variable is the same throughout the program. 
+```cpp
+#include <iostream>
+usingnamespacestd;
+
+// Global variable:
+int g;
+
+intmain () {
+// Local variable:
+int a, b;
+
+// initialization
+a = 10;
+b = 20;
+g = a + b;
+
+cout << g;
+
+return0;
+}
+```
+
