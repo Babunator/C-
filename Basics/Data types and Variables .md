@@ -1,0 +1,41 @@
+# Data types
+![](https://hackr.io/blog/media/2-34.png?ezimgfmt=rs:714x415/rscb1/ng:webp/ngcb1)
+- **Built-in or primitive data types:** Pre-defined data types that can be used directly, including Integer, Character, Boolean, Floating Point, Double Floating Point, Valueless or Void, and Wide Character.
+- **Derived data types: Derived from primitive data types**: function, array, pointer, and reference.
+- User-defined data types**: Defined by users: class, structure, union, enumeration, and Typedef
+
+# Variables
+
+Variables store the data values. C++ supports various types of variables, such as int, double, string, char, and float. 
+```cpp
+int num = 12; // Integer
+string name = "Unity Buddy"; // String(text)
+char ch = 'U'; //character
+float fl = 5.99; // Floating point number
+```
+- You can use alphabets, numbers, and the underscore for a variable name. 
+. However, variables **cannot start** with numbers or the underscore ‘_’ character. 
+- You cannot use a keyword for the variable name. 
+
+## Variables Scope
+###  Local Variables
+- These variables are declared within a function or block of code. Their scope is only limited to that function or block and cannot be accessed by any other statement outside that block. 
+```cpp
+#include <iostream>
+usingnamespacestd;
+
+intmain () {
+// Local variable:
+int a, b;
+int c;
+
+// initialization
+a = 10;
+b = 20;
+c = a + b;
+
+cout << c;
+
+return0;
+}
+```
