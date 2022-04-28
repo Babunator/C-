@@ -1,0 +1,66 @@
+# While Loop
+The loop will continue till the specified condition is true.
+```
+while (condition)
+{code}
+```
+Example:
+```cpp
+#include <iostream>
+
+int main() {
+  int i = 0;
+  while (i < 5) {
+    std::cout << i << "\n" ; //make new lines for each
+    i++; //Add +1.
+  }
+  return 0;
+ /* output - 1
+             2
+             3
+             4
+             5
+   */                      
+}
+```
+# Do-While Loop
+When the condition becomes false, the do-while loop stops executing. However, the only difference between the while and do-while loop is that the do-while loop tests the condition after executing the loop. Therefore, the loop gets executed at least once.
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--5Xias1D0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn.hashnode.com/res/hashnode/image/upload/v1621636641551/LB_ybpDhI.png)
+```
+do
+{
+Code
+}
+while (condition)
+```
+# For Loop
+You can use the for loop to execute a block of code multiple times. This loop runs the block until the condition specified in it holds false. 
+```
+for (int a=0; i< count; i++) //i++ Add +1.
+{
+Code
+}
+```
+# Break Statement
+This is used to break the flow of the code so the remaining code isn’t executed. This brings you out of the loop. <br/>
+Example:
+```
+for (int i = 0; i < 10; i++) {
+if (i == 4) {
+break;
+}
+cout << i << "\n";
+}
+```
+# Continue Statement
+And the continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.<br/>
+Example:
+
+```
+for (int i = 0; i < 10; i++) {
+if (i == 4) {
+continue;
+}
+cout << i << "\n";
+}
+```
