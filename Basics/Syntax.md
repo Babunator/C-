@@ -1,5 +1,5 @@
 # Syntax
-```
+```cpp
 #include <iostream>
 usingnamespacestd;
 
