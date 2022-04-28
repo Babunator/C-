@@ -8,14 +8,16 @@
 
 Variables store the data values. C++ supports various types of variables, such as int, double, string, char, and float. 
 ```cpp
-int num = 12; // Integer
-string name = "Unity Buddy"; // String(text)
-char ch = 'U'; //character
-float fl = 5.99; // Floating point number
+int num = 12; // Integer (whole numbers)
+string name = "Buddy"; // String(text)
+char ch = 'U'; //single character
+float fl = 5.99; // Floating point number with decimals
+double Y_N = true // Boolean values with two states: true or false
 ```
 - You can use alphabets, numbers, and the underscore for a variable name. 
 . However, variables **cannot start** with numbers or the underscore ‘_’ character. 
 - You cannot use a keyword for the variable name. 
+
 
 ## Variables Scope
 ###  Local Variables
@@ -39,7 +41,7 @@ cout << c;
 return0;
 }
 ```
-## Global Variables 
+### Global Variables 
 - Global variables are accessible to any function, method, or block of the program. Usually, it is defined outside all the functions. The value of the global variable is the same throughout the program. 
 ```cpp
 #include <iostream>
